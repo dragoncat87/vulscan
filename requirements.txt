@@ -1,0 +1,9 @@
+click
+gitpython
+requests
+rich
+google-genai
+jsonschema
+pyyaml
+python-dotenv
+semgrep
