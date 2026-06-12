@@ -1,18 +1,35 @@
+# Virtual environment
+bin/
+lib/
+lib64/
+include/
+share/
+pyvenv.cfg
+
+# Python
 __pycache__/
 *.py[cod]
 *.egg-info/
 dist/
 build/
-.venv/
-venv/
+.eggs/
+
+# Scan output
+vulscan-results/
+vulscan-report-*
+
+# Environment
 .env
 *.env
-vulscan-results/
+
+# Cache
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
-*.sarif
-*.json
-*.csv
-*.html
-!README.md
+
+# IDE
+.vscode/
+.idea/
+
+# WSL artifacts
+*:Zone.Identifier
